@@ -1,0 +1,56 @@
+@import url('http://fonts.cdnfonts.com/css/ds-digital');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DS-Digital', sans-serif;
+}
+body{
+    background-color: #202020;
+}
+h1{
+    font-size: 5em;
+    color: #fff;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    min-width: 80px;
+}
+.controls{
+    margin: 40px 0;
+}
+
+.btn{
+    padding: 15px;
+    min-width: 120px;
+    max-width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #cecece;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.pause:hover{
+    background-color: #d0ff00;
+}
+.start:hover{
+    background-color: #15ff00;
+}
+.zero:hover{
+    background-color: #ff0000;
+}
