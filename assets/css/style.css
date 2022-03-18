@@ -1,17 +1,17 @@
-@import url('http://fonts.cdnfonts.com/css/ds-digital');
-
+@import url(//db.onlinewebfonts.com/c/1467e2d37ec60cc50117a8db7c24f626?family=DS-Digital);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DS-Digital', sans-serif;
+    font-family: "DS-Digital";
 }
 body{
-    background-color: #202020;
+    background-color: #000;
+
 }
 h1{
     font-size: 5em;
-    color: #fff;
+    color: #39ff14;
 }
 .container{
     max-width: 1200px;
@@ -24,33 +24,46 @@ h1{
 }
 .box{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    border: 10px solid #39ff14;
+    border-radius: 10px;
+    min-width: 350px;
+    height: 180px;
+    padding: 0 10px;
 }
+
 .card{
     text-align: center;
-    min-width: 80px;
+    min-width: 90px;
 }
 .controls{
-    margin: 40px 0;
+    margin: 20px;
 }
 
 .btn{
-    padding: 15px;
-    min-width: 120px;
-    max-width: 100%;
+    border: 2px solid #39ff14;
+    background-color: #000;
+
+    margin: 0 5px;
+    min-height: 40px;
+    min-width: 80px;
+    border-radius: 3px;
+    font-size: 1em;
+    color: #39ff14;
     cursor: pointer;
-    font-size: 20px;
-    background-color: #cecece;
-    border: 1px solid #000000;
-    border-radius: 15px;
+    transition: 0.5s all;
 }
-.pause:hover{
-    background-color: #d0ff00;
+.btn:hover{
+    background-color: #39ff14;
+    color: #1A1919;
 }
-.start:hover{
-    background-color: #15ff00;
-}
-.zero:hover{
-    background-color: #ff0000;
+@media (max-width: 480px){
+    .box{
+        border: transparent;
+        height: 100px;
+    }
+   .btn{
+       min-height: 30px;
+   }
 }

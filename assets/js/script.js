@@ -7,7 +7,7 @@ const segundos = document.getElementById('seconds')
 const milissegundos = document.getElementById('milliseconds')
 
 let milliseconds = 0;
-let seconds = 0
+let seconds = 0;
 let minutes = 0;
 let cron;
 
@@ -17,7 +17,8 @@ function start(){
 }
 
 function timer(){
-    if(milliseconds <= 99){
+
+    if(milliseconds <= 98){
         milliseconds++
     }
     else{
@@ -28,9 +29,10 @@ function timer(){
         seconds = 0
         minutes++ 
     }
-    milissegundos.innerText = `${formatarTempo(milliseconds)}`
-    segundos.innerText = `:${formatarTempo(seconds)}.`
-    minutos.innerText = `${formatarTempo(minutes)}`
+
+    minutos.innerHTML = `${formatarTempo(minutes)}:`
+    segundos.innerHTML = ` ${formatarTempo(seconds)}:`
+    milissegundos.innerHTML = `${formatarTempo(milliseconds)}`
 }
 
 
@@ -40,9 +42,10 @@ const zero = () => {
     milliseconds = 0;
     seconds = 0
     minutes = 0;
+
+    minutos.innerText = `00:`
+    segundos.innerText = `00:`
     milissegundos.innerText = `00`
-    segundos.innerText = `:00.`
-    minutos.innerText = `00`
     pause(); 
 }
 
