@@ -1,5 +1,9 @@
-@import url("//db.onlinewebfonts.com/c/1467e2d37ec60cc50117a8db7c24f626?family=DS-Digital");
-
+@font-face {
+    font-family: "DS-Digital";
+    src: local("DS-Digital"), url("../fonts/DS-DIGIB.TTF") format("opentype");
+    font-style: normal;
+    font-display: swap;
+  }
 *{
     margin: 0;
     padding: 0;
