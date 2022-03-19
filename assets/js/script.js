@@ -17,7 +17,6 @@ function start(){
 }
 
 function timer(){
-
     if(milliseconds <= 98){
         milliseconds++
     }
@@ -29,12 +28,10 @@ function timer(){
         seconds = 0
         minutes++ 
     }
-
     minutos.innerHTML = `${formatarTempo(minutes)}:`
     segundos.innerHTML = ` ${formatarTempo(seconds)}:`
     milissegundos.innerHTML = `${formatarTempo(milliseconds)}`
 }
-
 
 const pause = () => clearInterval(cron);
 
@@ -42,7 +39,6 @@ const zero = () => {
     milliseconds = 0;
     seconds = 0
     minutes = 0;
-
     minutos.innerText = `00:`
     segundos.innerText = `00:`
     milissegundos.innerText = `00`
