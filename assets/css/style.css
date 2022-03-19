@@ -1,13 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/1467e2d37ec60cc50117a8db7c24f626?family=DS-Digital);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "DS-Digital";
+    font-family: "DS-Digital", sans-serif;
 }
 body{
     background-color: #000;
-
 }
 h1{
     font-size: 5em;

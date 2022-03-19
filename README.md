@@ -6,7 +6,7 @@
   Um cronômetro é um relógio projetado para medir a quantidade de tempo que decorre entre sua ativação e desativação.
 </h4>
 
-<h4 align="center"><a href="https://abraaowendel.github.io/cronometro/" target="_blank">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://abraaowendel.github.io/Cronometro/" target="_blank">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
